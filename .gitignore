@@ -1,0 +1,8 @@
+dist
+node_modules
+.DS_Store
+upload
+npm-debug.log
+logs/
+ecosystem.json
+server/public/assets/
