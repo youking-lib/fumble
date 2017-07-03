@@ -8,7 +8,6 @@ describe('BST', () => {
         const bst = new BST() 
         
         bst.insertMany([20, 30, 10, 12, 13, 9, 33, 39, 24, 25])
-        console.log(bst)
 
         let preList = []
         let inList = []
