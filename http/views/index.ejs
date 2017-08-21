@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Http performance</title>
+  <link rel="stylesheet" href="/public/bootstrap.css">
+</head>
+<body>
+  <div>hello world!</div>
+
+  <script src="/public/jquery_1.js"></script>
+  <script src="/public/bootstrap.js"></script>
+
+  <% for (var i=0; i<10; i++) { %>
+    <script src="/public/jquery_1.js?n=<%= Math.random() %>"></script>
+  <% } %>
+</body>
+</html>

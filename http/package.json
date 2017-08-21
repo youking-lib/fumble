@@ -1,0 +1,19 @@
+{
+  "name": "webperformance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.js --watch --name webP && pm2 log webP"
+  },
+  "author": "whistleyz",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "pm2": "^2.6.1"
+  }
+}
