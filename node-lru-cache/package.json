@@ -1,0 +1,11 @@
+{
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lru-cache.js",
+  "scripts": {
+    "test": "mocha './src/**/test-*.js' --watch --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
